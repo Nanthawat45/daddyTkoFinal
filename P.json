@@ -1,0 +1,23 @@
+{
+  "employer": "XYZ Corporation",
+  "internshipPositions": [
+    {
+      "positionId": 1,
+      "title": "Front-end Developer Intern",
+      "skillsRequired": ["Front-end"],
+      "vacancies": 2
+    },
+    {
+      "positionId": 2,
+      "title": "Back-end Developer Intern",
+      "skillsRequired": ["Back-end"],
+      "vacancies": 2
+    },
+    {
+      "positionId": 3,
+      "title": "Full-stack Developer Intern",
+      "skillsRequired": ["Back-end", "Front-end"],
+      "vacancies": 2
+    }
+  ]
+}

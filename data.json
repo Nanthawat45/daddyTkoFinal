@@ -1,0 +1,41 @@
+{
+  "interns": [
+    {
+      "id": 1,
+      "name": "สมชาย",
+      "skills": ["Back-end"],
+      "image": "img/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "สมปอง",
+      "skills": ["Back-end"],
+      "image": "img/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "สมหมาย",
+      "skills": ["Front-end"],
+      "image": "img/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "สมหญิง",
+      "skills": ["Front-end"],
+      "image": "img/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "สมชาตรี",
+      "skills": ["Back-end and Front-end"],
+      "image": "img/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "สมเป็นคุณหญิง",
+      "skills": ["Back-end and Front-end"],
+      "image": "img/6.jpg"
+    }
+  ]
+}
+

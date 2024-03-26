@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>แบบฟอร์มที่คลิกถูกแล้วขึ้นข้อมูล</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <label for="backend">Back-end</label>
+  <input type="checkbox" id="backend">
+  <label for="frontend">Front-end</label>
+  <input type="checkbox" id="frontend">
+  <label for="backendfrontend">Back-endANDFront-end</label>
+  <input type="checkbox" id="backendfrontend">
+  <button onclick="showData()">แสดงข้อมูล</button>
+  <button onclick="randomMath()">สุ่มจับชื่อ</button> <!-- เพิ่มปุ่ม math -->
+  <div class="info" id="info">
+    <h2>ข้อมูลที่เลือก</h2>
+    <ul id="selectedData"></ul>
+  </div>
+</div>
+<div class="container">
+  <h2>กรอกข้อมูลและบันทึกลงใน JSON พร้อมอัปโหลดรูปภาพ</h2>
+  <form id="dataForm">
+    <label for="name">ชื่อ:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="skill">ทักษะ:</label>
+    <input type="text" id="skill" name="skill"><br><br>
+    <label for="image">รูปภาพ:</label>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+    <button type="button" onclick="submitForm()">บันทึก</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
